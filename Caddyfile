@@ -1,0 +1,5 @@
+http://:8080 {
+    reverse_proxy https://elixir-roonie-8d343af23682.herokuapp.com {
+        header_up Host elixir-roonie-8d343af23682.herokuapp.com
+    }
+}
